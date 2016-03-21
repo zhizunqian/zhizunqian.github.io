@@ -1,824 +1,452 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>我的个人简历</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="" />
-<!-- css links -->
-<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
-<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" />
-<link rel="stylesheet" type="text/css" href="css/caption-hover.css" />
-<link rel="stylesheet" type="text/css" href="css/circle-hover.css" />
-<link href="css/slider.css" rel="stylesheet" type="text/css" media="all">
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all">
-<!-- /css links -->
-<link href='http://fonts.useso.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
-<link href='http://fonts.useso.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
-<script src="js/SmoothScroll.min.js"></script>
-<script type="text/javascript" src="js/modernizr.custom.js"></script> 
+ <meta charset="UTF-8">
+ <title>我的个人简历</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="./css/index.css">
+ <link rel="stylesheet" href="css/materialize.min.css">
+ <script src="./js/jquery.js"></script>
+ <script src="./js/index.js"></script>
 </head>
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
-<!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#myPage">Vegetable Farm</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="#myPage">首页/Home</a></li>
-        <li><a href="#about">介绍/About</a></li>
-        <li><a href="#services">技能/Skills</a></li>
-        <li><a href="#portfolio">作品/Products</a></li>
-        <li><a href="#contact">联系/Contact</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
-<!-- /Fixed navbar -->  
-<!-- Banner -->
-<div class="banner">
-  <div id="content">
-        <div id="slider">
-      <img src="images/banner1.jpg" alt="We Bring" data-url="#1">
-      <img src="images/banner2.jpg" alt="The Good" data-url="#2">
-      <img src="images/banner3.jpg" alt="Vegetable Farm" data-url="#3">
-      <img src="images/banner4.jpg" alt="To Life" data-url="#4">
+<body>
+ <!-- <link rel="stylesheet" href="./css/bootstrap.min.css"> -->
+ <!-- nav 开始-->
+ <nav class="blue darken-3" >
+  <div class="nav-wrapper">
+   <div class="brand-logo">个人简历</div>
+   <div data-activates="mobile-demo" class="button-collapse"><i class="material-icons">三</i></div>
+   <ul class="right hide-on-med-and-down">
+    <li><a href="#home">首页</a></li>
+    <li><a href="#about">介绍</a></li>
+    <li><a href="#skills">技能</a></li>
+    <li><a href="#products">作品</a></li>
+    <li><a href="#contact">联系</a></li>
+   </ul>
+   <ul class="side-nav" id="mobile-demo">
+    <li><a href="#home">首页</a></li>
+    <li><a href="#about">介绍</a></li>
+    <li><a href="#skills">技能</a></li>
+    <li><a href="#products">作品</a></li>
+    <li><a href="#contact">联系</a></li>
+   </ul>
+  </div>
+ </nav>
+ <!-- nav 结束-->
+ <!-- banner 开始-->
+ <div id="home" style="overflow: hidden;width: 100%;height: 100%">
+ <img src="images/223.jpg" id="img">
+ </div>
+ <!-- banner 结束-->
+ <!-- about 开始-->
+ <!-- <div class="container"> -->
+ <section class="about-us" id="about">
+  <h3 class="center-align slideanim">个人简介/My message</h3>
+  <div class="container">
+  <div class="row">
+   <div class="col m6 s12 ">
+    <img src="./images/11111.jpg" alt="" style="width: 100%;height:100%">
+   </div>
+   <div class="col m6 s12">
+    <div class="you">
+     <p>求职意向：前端工程师</p>
+     <p>姓名：贺晓英</p>
+     <p>年龄：23</p>
+     <p>籍贯：山西临汾</p>
+     <p>专业：电子信息工程</p>
+     <p>学历：本科</p>
+     <p>性格：做事认真踏实，对工作认真负责，具有团队精神，良好的沟通能力。</p>
+     <p>工作经历：2015.06-2016.3 在山西硬汉科技公司担任前端工程师，独立承担Web前端开发任务，利用HTML/CSS/Javascript/HTML5等各种技术进行产品的界面开发，实现页面结构和各种动态交互功能。</p>
     </div>
-  </div>  
-</div>
-<!-- /Banner -->
-<!-- About -->
-<section class="about-us" id="about">
-  <h3 class="text-center slideanim">个人简介/My message</h3>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4 col-lg-offset-2 slideanim">
-                <p>我，这就是我</p>
-            </div>
-            <div class="col-lg-4 slideanim">
-                <p>我自己</p>
-            </div>
-        </div>
+   </div>
+  </div>
+  </div>
+ </section>
+ <!-- about 结束-->
+ <!-- skill 开始-->
+ <section class="our-services" id="skills">
+  <h3 class="center-align slideanim">我的技能/My skills</h3>
+  <!-- <div class="container"> -->
+  <ul class="ch-grid row">
+  <li class="col l3 s6">
+    <div class="lis">
+     <div class="ch-item ch-img-1 slideanim">        
+      <div class="ch-info-wrap">
+       <div class="ch-info">
+        <div class="ch-info-front ch-img-1"></div>
+        <div class="ch-info-back">
+         <h5>精通</h5>
+         <p>html/html5<br/>css/css3<br/>javascript</p>
+        </div>  
+       </div>
+      </div>
+     </div>
+     <h4 class="slideanim">html/html5/css/css3<br/>javascript</h4>
+     <p class="slideanim">精通</p>
     </div>
-</section>
-<div class="content-section-a">
-  <div class="container">
-    <div class="row">
-            <div class="col-lg-5 col-sm-6">
-        <div class="content1">
-          <h3 class="section-heading slideanim">Vegetable Farm Building a Better Tomorrow.</h3>
-          <hr class="section-heading-spacer slideanim">
-          <div class="clearfix"></div>
-          <p class="lead slideanim">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+   </li>
+   <li class="col l3 s6">
+    <div class="lis">
+
+     <div class="ch-item ch-img-2 slideanim">
+      <div class="ch-info-wrap">
+       <div class="ch-info">
+        <div class="ch-info-front ch-img-2"></div>
+        <div class="ch-info-back">
+         <h5>熟练</h5>
+         <p>bootstrap<br/>响应式webApp</p>
         </div>
+       </div>
       </div>
-            <div class="col-lg-5 col-lg-offset-2 col-sm-6 slideanim">
-                <ul class="grid cs-style">
-          <li>
-            <figure>
-              <img src="images/farm1.jpg" alt="" class="img-responsive">
-              <figcaption>
-                <h3>Vegetable Farm</h3>
-                <p>Building a Better Tomorrow.</p>
-              </figcaption>
-            </figure>
-          </li>
-        </ul> 
+     </div>
+     <h4 class="slideanim">bootstrap<br/>响应式webApp</h4>
+     <p class="slideanim">熟练</p>
+    </div>
+   </li>
+   <li class="col l3 s6">
+    <div class="lis">
+     <div class="ch-item ch-img-3 slideanim">
+      <div class="ch-info-wrap">
+       <div class="ch-info">
+        <div class="ch-info-front ch-img-3"></div>
+        <div class="ch-info-back">
+         <h5>精通</h5>
+         <p>jquery<br/>angular.js</p>
+        </div>
+       </div>
       </div>
+     </div>
+     <h4 class="slideanim">jquery<br/>angular.js</h4>
+     <p class="slideanim">精通</p>
+    </div>
+   </li>
+
+   <li class="col l3 s6">
+    <div class="lis">
+     <div class="ch-item ch-img-4 slideanim">
+      <div class="ch-info-wrap">
+       <div class="ch-info">
+        <div class="ch-info-front ch-img-4"></div>
+        <div class="ch-info-back">
+         <h5>熟练</h5>
+         <p>前端自动化<br/>hybirdApp</p>
         </div>
-  </div>
-</div>
-<div class="content-section-b">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-5 col-lg-offset-1 col-sm-push-6 col-sm-6">
-        <div class="content2">
-          <h3 class="section-heading slideanim">Something Special About The Vegetable Farm</h3>
-          <hr class="section-heading-spacer slideanim">
-          <div class="clearfix"></div>
-          <p class="lead slideanim">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-        </div>
+       </div>
       </div>
-            <div class="col-lg-5 col-sm-pull-6 col-sm-6 slideanim">
-                <ul class="grid cs-style">
-          <li>
-            <figure>
-              <img src="images/farm2.jpg" alt="" class="img-responsive">
-              <figcaption>
-                <h3>Something Special</h3>
-                <p>About The Vegetable Farm</p>
-              </figcaption>
-            </figure>
-          </li>
-        </ul>
-            </div>
-        </div>
-  </div>
-</div>
-<div class="content-section-a">
-  <div class="container">
-    <div class="row">
-            <div class="col-lg-5 col-sm-6">
-        <div class="content3">
-          <h3 class="section-heading slideanim">Vegetable Farm The Fresh Maker!</h3>
-          <hr class="section-heading-spacer slideanim">
-          <div class="clearfix"></div>
-          <p class="lead slideanim">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-        </div>
-      </div>
-            <div class="col-lg-5 col-lg-offset-2 col-sm-6 slideanim">
-                <ul class="grid cs-style">
-          <li>
-            <figure>
-              <img src="images/farm3.jpg" alt="" class="img-responsive">
-              <figcaption>
-                <h3>Vegetable Farm</h3>
-                <p>The Fresh Maker!</p>
-              </figcaption>
-            </figure>
-          </li>
-        </ul>
-            </div>
-        </div>
-  </div>
-</div>
-<!-- /About -->
-<!-- /Services -->
-<section class="our-services" id="services">
-    <h3 class="text-center slideanim">我的技能/My skills</h3>
-  <ul class="ch-grid">
-    <li>
-      <div class="ch-item ch-img-1 slideanim">        
-        <div class="ch-info-wrap">
-          <div class="ch-info">
-            <div class="ch-info-front ch-img-1"></div>
-            <div class="ch-info-back">
-              <h5>精通</h5>
-              <p>html/html5<br/>css/css3<br/>javascript</p>
-            </div>  
-          </div>
-        </div>
-      </div>
-      <h4 class="slideanim">html/html5/css/css3<br/>javascript</h4>
-      <p class="slideanim">精通</p>
-    </li>
-    <li>
-      <div class="ch-item ch-img-2 slideanim">
-        <div class="ch-info-wrap">
-          <div class="ch-info">
-            <div class="ch-info-front ch-img-2"></div>
-            <div class="ch-info-back">
-              <h5>熟练</h5>
-              <p>bootstrap<br/>响应式webApp</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <h4 class="slideanim">bootstrap<br/>响应式webApp</h4>
-      <p class="slideanim">熟练</p>
-    </li>
-    <li>
-      <div class="ch-item ch-img-3 slideanim">
-        <div class="ch-info-wrap">
-          <div class="ch-info">
-            <div class="ch-info-front ch-img-3"></div>
-            <div class="ch-info-back">
-              <h5>精通</h5>
-              <p>jquery<br/>angular.js</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <h4 class="slideanim">jquery<br/>angular.js</h4>
-      <p class="slideanim">精通</p>
-    </li>
-    <li>
-      <div class="ch-item ch-img-4 slideanim">
-        <div class="ch-info-wrap">
-          <div class="ch-info">
-            <div class="ch-info-front ch-img-4"></div>
-            <div class="ch-info-back">
-              <h5>熟练</h5>
-              <p>前端自动化<br/>hybirdApp</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <h4 class="slideanim">前端自动化<br/>hybirdApp</h4>
-      <p class="slideanim">熟练</p>
-    </li>
+     </div>
+     <h4 class="slideanim">前端自动化<br/>hybirdApp</h4>
+     <p class="slideanim">熟练</p>
+    </div>
+   </li>
+
   </ul>
-</section>
-<!-- /Services -->
-<!-- Portfolio Grid Section -->
-<section id="portfolio">
-  <h3 class="text-center slideanim">我的作品/My products</h3>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item slideanim">
-                <a href="/tianmao" class="portfolio-link" data-toggle="modal">
-          <div class="caption">
-            <div class="caption-content">
-              <i class="fa fa-paper-plane-o"></i>
-            </div>
-          </div>
-          <img src="images/i-tm.png" class="img-responsive" alt="">
-        </a>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item slideanim">
-                <a href="/1haodian" class="portfolio-link" data-toggle="modal">
-          <div class="caption">
-                        <div class="caption-content">
-              <i class="fa fa-paper-plane-o"></i>
-                        </div>
-          </div>
-                    <img src="images/i-haodian.png" class="img-responsive" alt="">
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item slideanim">
-                <a href="/xiaomi" class="portfolio-link" data-toggle="modal">
-                    <div class="caption">
-                        <div class="caption-content">
-                            <i class="fa fa-paper-plane-o"></i>
-                        </div>
-                    </div>
-                    <img src="images/i-xiaomi.png" class="img-responsive" alt="">
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item slideanim">
-                <a href="/apple" class="portfolio-link" data-toggle="modal">
-                    <div class="caption">
-                        <div class="caption-content">
-                            <i class="fa fa-paper-plane-o"></i>
-                        </div>
-                    </div>
-                    <img src="images/i-apple.png" class="img-responsive" alt="">
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item slideanim">
-        <a href="/kuang" class="portfolio-link" data-toggle="modal">
-                    <div class="caption">
-                        <div class="caption-content">
-                            <i class="fa fa-paper-plane-o"></i>
-                        </div>
-                    </div>
-                    <img src="images/i-yzjx.png" class="img-responsive" alt="">
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item slideanim">
-                <a href="/fullpage" class="portfolio-link" data-toggle="modal">
-                    <div class="caption">
-                        <div class="caption-content">
-                            <i class="fa fa-paper-plane-o"></i>
-                        </div>
-                    </div>
-          <img src="images/i-pf.png" class="img-responsive" alt="">
-                </a>
-            </div>
-             <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item slideanim">
-                <a href="/qq_music  " class="portfolio-link" data-toggle="modal">
-                    <div class="caption">
-                        <div class="caption-content">
-                            <i class="fa fa-paper-plane-o"></i>
-                        </div>
-                    </div>
-          <img src="images/i-music.jpg" class="img-responsive" alt="">
-                </a>
-            </div>
-             <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item slideanim">
-                <a href="/icloud" class="portfolio-link" data-toggle="modal">
-                    <div class="caption">
-                        <div class="caption-content">
-                            <i class="fa fa-paper-plane-o"></i>
-                        </div>
-                    </div>
-          <img src="images/i-ic.png" class="img-responsive" alt="">
-                </a>
-            </div>
-                <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item slideanim">
-                <a href="/sketch" class="portfolio-link" data-toggle="modal">
-                    <div class="caption">
-                        <div class="caption-content">
-                            <i class="fa fa-paper-plane-o"></i>
-                        </div>
-                    </div>
-          <img src="images/i-sketch.png" class="img-responsive" alt="">
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item slideanim">
-                <a href="/canvas_wuziqi" class="portfolio-link" data-toggle="modal">
-                    <div class="caption">
-                        <div class="caption-content">
-                            <i class="fa fa-paper-plane-o"></i>
-                        </div>
-                    </div>
-          <img src="images/i-wuziqi.png" class="img-responsive" alt="">
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item slideanim">
-                <a href="/she" class="portfolio-link" data-toggle="modal">
-                    <div class="caption">
-                        <div class="caption-content">
-                            <i class="fa fa-paper-plane-o"></i>
-                        </div>
-                    </div>
-          <img src="images/i-she.png" class="img-responsive" alt="">
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item slideanim">
-                <a href="/saolei" class="portfolio-link" data-toggle="modal">
-                    <div class="caption">
-                        <div class="caption-content">
-                            <i class="fa fa-paper-plane-o"></i>
-                        </div>
-                    </div>
-          <img src="images/i-lei.png" class="img-responsive" alt="">
-                </a>
-            </div>
-             <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item slideanim">
-                <a href="/flaap_bird" class="portfolio-link" data-toggle="modal">
-                    <div class="caption">
-                        <div class="caption-content">
-                            <i class="fa fa-paper-plane-o"></i>
-                        </div>
-                    </div>
-          <img src="images/i-niao.png" class="img-responsive" alt="">
-                </a>
-            </div>
-             <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item slideanim">
-                <a href="/xueshengguanli" class="portfolio-link" data-toggle="modal">
-                    <div class="caption">
-                        <div class="caption-content">
-                            <i class="fa fa-paper-plane-o"></i>
-                        </div>
-                    </div>
-          <img src="images/i-ajax.png" class="img-responsive" alt="">
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item slideanim">
-                <a href="/pengpaixinwen" class="portfolio-link" data-toggle="modal">
-                    <div class="caption">
-                        <div class="caption-content">
-                            <i class="fa fa-paper-plane-o"></i>
-                        </div>
-                    </div>
-          <img src="images/i-xinwen.png" class="img-responsive" alt="">
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- /Portfolio Grid Section -->
-<!-- Portfolio Modals -->
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl"></div>
-            </div>
-        </div>
-        <div class="container">
-      <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                        <h3>Vegetable Farm</h3>
-            <hr>
-                        <img src="images/port1.jpg" class="img-responsive img-centered" alt="">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl"></div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                        <h3>Vegetable Farm</h3>
-                        <hr>
-                        <img src="images/port2.jpg" class="img-responsive img-centered" alt="">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl"></div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                        <h3>Vegetable Farm</h3>
-                        <hr>
-                        <img src="images/port3.jpg" class="img-responsive img-centered" alt="">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl"></div>
-            </div>
-        </div>
-        <div class="container">
-      <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                        <h3>Vegetable Farm</h3>
-                        <hr>
-                        <img src="images/port4.jpg" class="img-responsive img-centered" alt="">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl"></div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                        <h3>Vegetable Farm</h3>
-                        <hr>
-                        <img src="images/port5.jpg" class="img-responsive img-centered" alt="">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl"></div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                        <h3>Vegetable Farm</h3>
-                        <hr>
-                        <img src="images/port6.jpg" class="img-responsive img-centered" alt="">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- /Portfolio Modals -->
-<!-- Blog -->
-<section class="our-blog" id="blog">
-  <h3 class="text-center slideanim">我的设计作品</h3>
-    <div class="container">
-    <div class="row">
-      <div class="col-md-3 col-xs-12">
-        <div class="view view-seventh slideanim">
-                    <img src="images/i-cy.jpg" alt="" class="img-responsive"/>
-                    <div class="mask">
-                        <h5>ICON</h5>
-                        <p>PS-扁平图标-1</p>
-            <a href="/" class="info">衬衣</a>
-                    </div>
-                </div>
+  <!-- </div> -->
+ </section>
+ <!-- skill 结束-->
+ <!-- product 开始-->
+ <section id="products">
+  <h3 class="center-align slideanim">我的作品/My products</h3>
+  <!-- <div class="container"> -->
+  <div class="row">
+   <div class="col m4 s12 portfolio-item slideanim">
+    <a href="/tianmao" class="portfolio-link" data-toggle="modal">
+     <div class="caption">
+      <div class="caption-content">
+       <i class="fa fa-paper-plane-o">天猫</i>
       </div>
-       <div class="col-md-3 col-xs-12">
-        <div class="view view-seventh slideanim">
-                    <img src="images/i-wjx.jpg" alt="" class="img-responsive"/>
-                    <div class="mask">
-                        <h5>ICON</h5>
-                        <p>PS-扁平图标-2</p>
-            <a href="/" class="info">五角星</a>
-                    </div>
-                </div>
-      </div>
-       <div class="col-md-3 col-xs-12">
-        <div class="view view-seventh slideanim">
-                    <img src="images/i-sm.jpg" alt="" class="img-responsive"/>
-                    <div class="mask">
-                        <h5>ICON</h5>
-                        <p>PS-扁平图标-3</p>
-            <a href="/" class="info">山脉</a>
-                    </div>
-                </div>
-      </div>
-      <div class="col-md-3 col-xs-12">
-        <div class="view view-seventh slideanim">
-                    <img src="images/i-zs.jpg" alt="" class="img-responsive"/>
-                    <div class="mask">
-                        <h5>ICON</h5>
-                        <p>PS-扁平图标-4</p>
-            <a href="/" class="info">钻石</a>
-                    </div>
-                </div>
-      </div>
-      <div class="col-md-3 col-xs-12">
-        <div class="view view-seventh slideanim">
-                    <img src="images/i-dh.jpg" alt="" class="img-responsive"/>
-                    <div class="mask">
-                        <h5>ICON</h5>
-                        <p>PS-2.5D图标-1</p>
-            <a href="#contact-info" class="info">电话</a>
-                    </div>
-                </div>
-      </div>
-      <div class="col-md-3 col-xs-12">
-        <div class="view view-seventh slideanim">
-                    <img src="images/i-dt.jpg" alt="" class="img-responsive"/>
-                    <div class="mask">
-                        <h5>ICON</h5>
-                        <p>PS-2.5D图标-2</p>
-            <a href="#contact-info" class="info">地图</a>
-                    </div>
-                </div>
-      </div>
-      <div class="col-md-3 col-xs-12">
-        <div class="view view-seventh slideanim">
-                    <img src="images/i-mf.jpg" alt="" class="img-responsive"/>
-                    <div class="mask">
-                        <h5>ICON</h5>
-                        <p>PS-2.5D图标-3</p>
-            <a href="#contact-info" class="info">蜜蜂</a>
-                    </div>
-                </div>
-      </div>
-      <div class="col-md-3 col-xs-12">
-        <div class="view view-seventh slideanim">
-                    <img src="images/i-yy.jpg" alt="" class="img-responsive"/>
-                    <div class="mask">
-                        <h5>ICON</h5>
-                        <p>PS-2.5D图标-4</p>
-            <a href="#contact-info" class="info">音乐</a>
-                    </div>
-                </div>
-      </div>
-      <div class="col-md-3 col-xs-12">
-        <div class="view view-seventh slideanim">
-                    <img src="images/i-xj.jpg" alt="" class="img-responsive"/>
-                    <div class="mask">
-                        <h5>ICON</h5>
-                        <p>PS-拟物图标-1</p>
-            <a href="#contact-info" class="info">相机</a>
-                    </div>
-                </div>
-      </div>
-      <div class="col-md-3 col-xs-12">
-        <div class="view view-seventh slideanim">
-                    <img src="images/i-yx.jpg" alt="" class="img-responsive"/>
-                    <div class="mask">
-                        <h5>ICON</h5>
-                        <p>PS-拟物图标-2</p>
-            <a href="#contact-info" class="info">音响</a>
-                    </div>
-                </div>
-      </div>
-      <div class="col-md-3 col-xs-12">
-        <div class="view view-seventh slideanim">
-                    <img src="images/i-ms.jpg" alt="" class="img-responsive"/>
-                    <div class="mask">
-                        <h5>ICON</h5>
-                        <p>PS-拟物图标-3</p>
-            <a href="#contact-info" class="info">磨砂质感</a>
-                    </div>
-                </div>
-      </div>
-      <div class="col-md-3 col-xs-12">
-        <div class="view view-seventh slideanim">
-                    <img src="images/i-js.jpg" alt="" class="img-responsive"/>
-                    <div class="mask">
-                        <h5>ICON</h5>
-                        <p>PS-拟物图标-4</p>
-            <a href="#contact-info" class="info">金属质感</a>
-                    </div>
-                </div>
-      </div>
-      <div class="col-md-3 col-xs-12">
-        <div class="view view-seventh slideanim">
-                    <img src="images/i-msk.jpg" alt="" class="img-responsive"/>
-                    <div class="mask">
-                        <h5>ICON</h5>
-                        <p>AI-1</p>
-            <a href="#contact-info" class="info">莫斯科</a>
-                    </div>
-                </div>
-      </div>
-      <div class="col-md-3 col-xs-12">
-        <div class="view view-seventh slideanim">
-                    <img src="images/i-mtl.jpg" alt="" class="img-responsive"/>
-                    <div class="mask">
-                        <h5>ICON</h5>
-                        <p>AI-2</p>
-            <a href="#contact-info" class="info">摩天轮</a>
-                    </div>
-                </div>
-      </div>
-      <div class="col-md-3 col-xs-12">
-        <div class="view view-seventh slideanim">
-                    <img src="images/i-pg.jpg" alt="" class="img-responsive"/>
-                    <div class="mask">
-                        <h5>ICON</h5>
-                        <p>AI-3</p>
-            <a href="#contact-info" class="info">苹果</a>
-                    </div>
-                </div>
-      </div>
-
-
-
-    </div>
-  </div>
-</section>
-<!-- /Blog -->
-<!-- Contact-Us -->
-<section class="contact-us" id="contact">
-  <h3 class="text-center slideanim">联系/Contact </h2>
-  <div class="container">
-    <div class="row">
-            <div class="col-md-8 col-xs-12 slideanim">
-                <iframe class="googlemaps" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d380510.6741687111!2d-88.01234121699822!3d41.83390417061058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1455598377120" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </div>
-            <div class="col-md-4 col-xs-12 slideanim">
-        <h4>请联系我 :</h4>
-                <p>电话:18335830721</p>
-                <p>Email:<a href="mailto:name@example.com">18335830721m0@sina.cn</a></p>
-                <p>现居:北京</p>
-            </div>
-            <div class="clearfix"></div>
-        </div>
-    </div>
-</section>
-<!-- /Contact-Us -->
-<!-- Contact-Form --> 
-<section class="contact-form" id="contact-info">
-  <h3 class="text-center slideanim">Contact Form</h3>
-  <p class="text-center slideanim">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 slideanim">
-        <form role="form">
-          <div class="row">
-            <div class="form-group col-lg-4">
-              <label>Name</label>
-              <input type="text" class="form-control">
-            </div>
-            <div class="form-group col-lg-4">
-              <label>Email Address</label>
-              <input type="email" class="form-control">
-            </div>
-            <div class="form-group col-lg-4">
-              <label>Phone Number</label>
-              <input type="tel" class="form-control">
-            </div>
-            <div class="clearfix"></div>
-            <div class="form-group col-lg-12">
-              <label>Message</label>
-              <textarea class="form-control" rows="6"></textarea>
-            </div>
-            <div class="form-group col-lg-12">
-              <button type="submit" href="#" class="btn btn-lg btn-outline">Submit</button>
-            </div>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
-</section>  
-<!-- /Contact-Form -->
-<!-- Footer -->
-<footer class="text-center slideanim">
-    <div class="footer-above">
-        <div class="container">
-            <div class="row">
-                <div class="footer-col col-md-4">
-                    <h4>Location</h4>
-                    <p>3481 Melrose Place<br>Beverly Hills, Chicago 90210</p>
-                </div>
-                <div class="footer-col col-md-4">
-                    <h4>Around the Web</h4>
-                    <ul class="list-inline">
-                        <li>
-                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
-                        </li>
-                        <li>
-                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
-                        </li>
-                        <li>
-                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                        </li>
-                        <li>
-                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                        </li>
-                        <li>
-                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer-col col-md-4">
-                    <h4>About Vegetable Farm</h4>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                </div>
-            </div>
-        </div>
-  </div>
-    <div class="footer-below">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; 2016.Company name All rights reserved.</p>
-                </div>
-            </div>
-        </div>
-    <a href="#myPage" title="To Top">
-      <span class="glyphicon glyphicon-chevron-up"></span>
+     </div>
+     <img src="images/i-tm.png" class="img-responsive" alt="">
     </a>
+   </div>
+   <div class="col m4 s12 portfolio-item slideanim">
+    <a href="/1haodian" class="portfolio-link" data-toggle="modal">
+     <div class="caption">
+      <div class="caption-content">
+       <i class="fa fa-paper-plane-o">1号店</i>
+      </div>
+     </div>
+     <img src="images/i-haodian.png" class="img-responsive" alt="">
+    </a>
+   </div>
+   <div class="col m4 s12 portfolio-item slideanim">
+    <a href="/xiaomi" class="portfolio-link" data-toggle="modal">
+     <div class="caption">
+      <div class="caption-content">
+       <i class="fa fa-paper-plane-o">小米</i>
+      </div>
+     </div>
+     <img src="images/i-xiaomi.png" class="img-responsive" alt="">
+    </a>
+   </div>
+   <div class="col m4 s12 portfolio-item slideanim">
+    <a href="/apple" class="portfolio-link" data-toggle="modal">
+     <div class="caption">
+      <div class="caption-content">
+       <i class="fa fa-paper-plane-o">apple</i>
+      </div>
+     </div>
+     <img src="images/i-apple.png" class="img-responsive" alt="">
+    </a>
+   </div>
+   <div class="col m4 s12 portfolio-item slideanim">
+    <a href="/kuang" class="portfolio-link" data-toggle="modal">
+     <div class="caption">
+      <div class="caption-content">
+       <i class="fa fa-paper-plane-o">优站精选</i>
+      </div>
+     </div>
+     <img src="images/i-yzjx.png" class="img-responsive" alt="">
+    </a>
+   </div>
+   <div class="col m4 s12 portfolio-item slideanim">
+    <a href="/fullpage" class="portfolio-link" data-toggle="modal">
+     <div class="caption">
+      <div class="caption-content">
+       <i class="fa fa-paper-plane-o">fullPage</i>
+      </div>
+     </div>
+     <img src="images/i-pf.png" class="img-responsive" alt="">
+    </a>
+   </div>
+   <div class="col m4 s12 portfolio-item slideanim">
+    <a href="/qq_music  " class="portfolio-link" data-toggle="modal">
+     <div class="caption">
+      <div class="caption-content">
+       <i class="fa fa-paper-plane-o">Music</i>
+      </div>
+     </div>
+     <img src="images/i-music.jpg" class="img-responsive" alt="">
+    </a>
+   </div>
+   <div class="col m4 s12 portfolio-item slideanim">
+    <a href="/icloud" class="portfolio-link" data-toggle="modal">
+     <div class="caption">
+      <div class="caption-content">
+       <i class="fa fa-paper-plane-o">iCloud</i>
+      </div>
+     </div>
+     <img src="images/i-ic.png" class="img-responsive" alt="">
+    </a>
+   </div>
+   <div class="col m4 s12 portfolio-item slideanim">
+    <a href="/sketch" class="portfolio-link" data-toggle="modal">
+     <div class="caption">
+      <div class="caption-content">
+       <i class="fa fa-paper-plane-o">Sketch</i>
+      </div>
+     </div>
+     <img src="images/i-sketch.png" class="img-responsive" alt="">
+    </a>
+   </div>
+   <div class="col m4 s12 portfolio-item slideanim">
+    <a href="/canvas_wuziqi" class="portfolio-link" data-toggle="modal">
+     <div class="caption">
+      <div class="caption-content">
+       <i class="fa fa-paper-plane-o">五子棋</i>
+      </div>
+     </div>
+     <img src="images/i-wuziqi.png" class="img-responsive" alt="">
+    </a>
+   </div>
+   <div class="col m4 s12 portfolio-item slideanim">
+    <a href="/she" class="portfolio-link" data-toggle="modal">
+     <div class="caption">
+      <div class="caption-content">
+       <i class="fa fa-paper-plane-o">贪吃蛇</i>
+      </div>
+     </div>
+     <img src="images/i-she.png" class="img-responsive" alt="">
+    </a>
+   </div>
+   <div class="col m4 s12 portfolio-item slideanim">
+    <a href="/saolei" class="portfolio-link" data-toggle="modal">
+     <div class="caption">
+      <div class="caption-content">
+       <i class="fa fa-paper-plane-o">扫雷</i>
+      </div>
+     </div>
+     <img src="images/i-lei.png" class="img-responsive" alt="">
+    </a>
+   </div>
+   <div class="col m4 s12 portfolio-item slideanim">
+    <a href="/flaap_bird" class="portfolio-link" data-toggle="modal">
+     <div class="caption">
+      <div class="caption-content">
+       <i class="fa fa-paper-plane-o">flaap bird</i>
+      </div>
+     </div>
+     <img src="images/i-niao.png" class="img-responsive" alt="">
+    </a>
+   </div>
+   <div class="col m4 s12 portfolio-item slideanim">
+    <a href="/xueshengguanli" class="portfolio-link" data-toggle="modal">
+     <div class="caption">
+      <div class="caption-content">
+       <i class="fa fa-paper-plane-o">学生管理</i>
+      </div>
+     </div>
+     <img src="images/i-ajax.png" class="img-responsive" alt="">
+    </a>
+   </div>
+   <div class="col m4 s12 portfolio-item slideanim">
+    <a href="/pengpaixinwen" class="portfolio-link" data-toggle="modal">
+     <div class="caption">
+      <div class="caption-content">
+       <i class="fa fa-paper-plane-o">澎湃新闻</i>
+      </div>
+     </div>
+     <img src="images/i-xinwen.png" class="img-responsive" alt="">
+    </a>
+   </div>
+  </div>
+  <!-- </div> -->
+ </section>
+ <!-- -设计 -->
+ <section class="our-blog" id="blog">
+  <h3 class="center-align slideanim">我的设计作品</h3>
+  <!-- <div class="container"> -->
+  <div class="row">
+   <div class="col m3 s12">
+    <div class="view view-seventh slideanim">
+     <img src="images/i-cy.jpg" alt="" class="img-responsive"/>
+     <div class="mask purple darken-4">
+      <h5>ICON</h5>
+      <p>PS-扁平图标-1</p>
+      <a href="/" class="info">衬衣</a>
+     </div>
     </div>
-</footer>
-<!-- js files -->
-<script src="http://apps.bdimg.com/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/classie.js"></script>
-<script src="js/TweenMax.min.js"></script>
-<script src="js/index.js"></script>
-<script src="js/index2.js"></script>
-<script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links in navbar + footer link
-  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+   </div>
+   <div class="col m3 s12">
+    <div class="view view-seventh slideanim">
+     <img src="images/i-wjx.jpg" alt="" class="img-responsive"/>
+     <div class="mask purple darken-4">
+      <h5>ICON</h5>
+      <p>PS-扁平图标-2</p>
+      <a href="/" class="info">五角星</a>
+     </div>
+    </div>
+   </div>
+   <div class="col m3 s12">
+    <div class="view view-seventh slideanim">
+     <img src="images/i-sm.jpg" alt="" class="img-responsive"/>
+     <div class="mask purple darken-4">
+      <h5>ICON</h5>
+      <p>PS-扁平图标-3</p>
+      <a href="/" class="info">山脉</a>
+     </div>
+    </div>
+   </div>
+   <div class="col m3 s12">
+    <div class="view view-seventh slideanim">
+     <img src="images/i-zs.jpg" alt="" class="img-responsive"/>
+     <div class="mask purple darken-4">
+      <h5>ICON</h5>
+      <p>PS-扁平图标-4</p>
+      <a href="/" class="info">钻石</a>
+     </div>
+    </div>
+   </div>
+   <div class="col m3 s12">
+    <div class="view view-seventh slideanim">
+     <img src="images/i-dh.jpg" alt="" class="img-responsive"/>
+     <div class="mask purple darken-4">
+      <h5>ICON</h5>
+      <p>PS-2.5D图标-1</p>
+      <a href="#contact-info" class="info">电话</a>
+     </div>
+    </div>
+   </div>
+   <div class="col m3 s12">
+    <div class="view view-seventh slideanim">
+     <img src="images/i-dt.jpg" alt="" class="img-responsive"/>
+     <div class="mask purple darken-4">
+      <h5>ICON</h5>
+      <p>PS-2.5D图标-2</p>
+      <a href="#contact-info" class="info">地图</a>
+     </div>
+    </div>
+   </div>
+   <div class="col m3 s12">
+    <div class="view view-seventh slideanim">
+     <img src="images/i-mf.jpg" alt="" class="img-responsive"/>
+     <div class="mask purple darken-4">
+      <h5>ICON</h5>
+      <p>PS-2.5D图标-3</p>
+      <a href="#contact-info" class="info">蜜蜂</a>
+     </div>
+    </div>
+   </div>
+   <div class="col m3 s12">
+    <div class="view view-seventh slideanim">
+     <img src="images/i-yy.jpg" alt="" class="img-responsive"/>
+     <div class="mask purple darken-4">
+      <h5>ICON</h5>
+      <p>PS-2.5D图标-4</p>
+      <a href="#contact-info" class="info">音乐</a>
+     </div>
+    </div>
+   </div>
+   <div class="col m3 s12">
+    <div class="view view-seventh slideanim">
+     <img src="images/i-xj.jpg" alt="" class="img-responsive"/>
+     <div class="mask purple darken-4">
+      <h5>ICON</h5>
+      <p>PS-拟物图标-1</p>
+      <a href="#contact-info" class="info">相机</a>
+     </div>
+    </div>
+   </div>
+   <div class="col m3 s12">
+    <div class="view view-seventh slideanim">
+     <img src="images/i-yx.jpg" alt="" class="img-responsive"/>
+     <div class="mask purple darken-4">
+      <h5>ICON</h5>
+      <p>PS-拟物图标-2</p>
+      <a href="#contact-info" class="info">音响</a>
+     </div>
+    </div>
+   </div>
+   <div class="col m3 s12">
+    <div class="view view-seventh slideanim">
+     <img src="images/i-ms.jpg" alt="" class="img-responsive"/>
+     <div class="mask purple darken-4">
+      <h5>ICON</h5>
+      <p>PS-拟物图标-3</p>
+      <a href="#contact-info" class="info">磨砂质感</a>
+     </div>
+    </div>
+   </div>
+   <div class="col m3 s12">
+    <div class="view view-seventh slideanim">
+     <img src="images/i-js.jpg" alt="" class="img-responsive"/>
+     <div class="mask purple darken-4">
+      <h5>ICON</h5>
+      <p>PS-拟物图标-4</p>
+      <a href="#contact-info" class="info">金属质感</a>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- </div> -->
+ </section>
+ <!-- product 结束-->
+ <!-- 联系 开始-->
+ <section class="contact-us" id="contact">
+  <h3 class="center-align slideanim">联系/Contact </h2>
+   <div class="row">
+    <div class="col center-align s12  slideanim">
+     <h4>请联系我 :</h4>
+     <p>电话:18335830721</p>
+     <p>Email:18335830721m0@sina.cn</p>
+     <p>现居:北京</p>
+    </div>
+    <div class="clearfix"></div>
+   </div>
+  </section>
+  <!-- </div> -->
+  <!-- 联系 结束-->
+  <script src="js/zepto.min.js"></script>
+  <script src="./js/move.js"></script>
+ </body>
 
-  // Prevent default anchor click behavior
-  event.preventDefault();
-
-  // Store hash
-  var hash = this.hash;
-
-  // Using jQuery's animate() method to add smooth page scroll
-  // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-  $('html, body').animate({
-    scrollTop: $(hash).offset().top
-  }, 900, function(){
-
-    // Add hash (#) to URL when done scrolling (default click behavior)
-    window.location.hash = hash;
-    });
-  });
-})
-</script>
-<script>
-$(window).scroll(function() {
-  $(".slideanim").each(function(){
-    var pos = $(this).offset().top;
-
-    var winTop = $(window).scrollTop();
-    if (pos < winTop + 600) {
-      $(this).addClass("slide");
-    }
-  });
-});
-</script>
-<!-- /js files -->
-</body>
-</html>
+ </html>
